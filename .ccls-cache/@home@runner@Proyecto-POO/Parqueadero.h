@@ -9,7 +9,6 @@ class Parqueadero
 {
   protected:
   vector <Vehiculo *> vehiculos; 
-// Faltan los otros .h y cpp
 
 
   public:
@@ -19,16 +18,15 @@ class Parqueadero
 
   void ingresarVehiculo();
 
-  virtual void retirarVehiculo();
+  void retirarVehiculo();
 
   void buscarVehiculo();
 
-  virtual void mostrarValorCalculado();
+  void mostrarValorCalculado();
 
   void guardarInformacion();
 
-// Virtual void ya que se maneja puntero para un solo dato
-  virtual void cargarInformacion();
+  void cargarInformacion();
 
   void mostrarInforme();
 

@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-Vehiculo::Vehiculo(string marca, string color, string placa, int horaEntrada, int minutoEntrada)
-: color(color), marca(marca), placa(placa), horaEntrada(horaEntrada), minutoEntrada(minutoEntrada){}
+Vehiculo::Vehiculo(string marca, string color, string placa, int horaEntrada)
+: color(color), marca(marca), placa(placa), horaEntrada(horaEntrada){}
 
 Vehiculo::~Vehiculo(){}
 
@@ -25,9 +25,4 @@ string Vehiculo::getPlaca()
 int Vehiculo::getHora()
 {
   return horaEntrada;
-}
-
-int Vehiculo::getMinuto()
-{
-  return minutoEntrada;
 }

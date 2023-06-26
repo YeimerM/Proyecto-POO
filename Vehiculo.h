@@ -17,7 +17,7 @@ protected:
 
 public:
   // Método Constructos
-  Vehiculo(string marca, string color, string placa, int horaEntrada, int minutoEntrada);
+  Vehiculo(string marca, string color, string placa, int horaEntrada);
   // Método Destructor
   virtual ~Vehiculo ();
 
@@ -32,5 +32,5 @@ public:
 };
 
 #else
-#class Vehiculo;
+class Vehiculo;
 #endif

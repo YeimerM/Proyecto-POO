@@ -30,8 +30,10 @@ class Parqueadero
 
   void mostrarInforme();
 
+  void mostrarMenu();
+
 };
 
 #else
-#class Parqueadero;
+class Parqueadero;
 #endif

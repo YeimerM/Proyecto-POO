@@ -1,6 +1,7 @@
 #include "Camion.h"
 
-Camion::Camion(string placa, string marca, string color, int horaEntrada, int minutoEntrada, int numeroEjes, int capacidadCarga):Vehiculo(placa, marca, color, horaEntrada, minutoEntrada), numeroEjes(numeroEjes){}
+Camion::Camion(string placa, string marca, string color, int horaEntrada, int numeroEjes, int capacidadCarga)
+: Vehiculo(placa, marca, color, horaEntrada), numeroEjes(numeroEjes), capacidadCarga(capacidadCarga){}
 
 Camion::~Camion(){}
 

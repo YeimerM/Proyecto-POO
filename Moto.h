@@ -13,7 +13,7 @@ private:
 
 public:
   // Constructor
-  Moto(string placa, string color, string marca, int horaEntrada, int minutoEntrada, string cilindraje, string tipoCombustion);
+  Moto(string placa, string color, string marca, int horaEntrada, string cilindraje, string tipoCombustion);
 
   // Destructor
   ~Moto();
@@ -26,5 +26,5 @@ public:
 };
 
 #else
-#class Moto;
+class Moto;
 #endif

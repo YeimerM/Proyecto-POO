@@ -15,7 +15,7 @@ class Camion : public Vehiculo {
   public:
 
     //Metodo constructor
-    Camion(string placa, string marca, string color, int horaEntrada, int minutoEntrada, int numeroEjes, int capacidadCarga); 
+    Camion(string placa, string marca, string color, int horaEntrada, int numeroEjes, int capacidadCarga); 
 
     //Metodo destructor
     ~Camion(); 
@@ -28,5 +28,5 @@ class Camion : public Vehiculo {
 };
 
 #else
-#class Camion;
+class Camion;
 #endif

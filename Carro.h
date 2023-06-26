@@ -12,7 +12,7 @@ private:
 public:
 
   // Método Constructor
-  Carro(string placa, string color, string marca,int horaEntrada, int numeroPuertas, int numeroAirbags);
+  Carro(string placa, string marca, string color,int horaEntrada, int numeroPuertas, int numeroAirbags);
   // Método Destructor
   ~Carro();
   // Getters

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Moto::Moto(string placa, string color, string marca, int horaEntrada, string cilindraje,string tipoCombustion)
+Moto::Moto(string placa, string marca, string color, int horaEntrada, string cilindraje,string tipoCombustion)
 : Vehiculo(placa, marca, color, horaEntrada), cilindraje(cilindraje), tipoCombustion(tipoCombustion){}
 
 Moto::~Moto() {}

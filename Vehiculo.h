@@ -17,16 +17,15 @@ protected:
 
 public:
   // Método Constructos
-  Vehiculo(string marca, string color, string placa, int horaEntrada);
+  Vehiculo(string placa, string marca, string color, int horaEntrada);
   // Método Destructor
   virtual ~Vehiculo ();
 
   // Getters
   string getPlaca();
-  string getColor(); 
   string getMarca();
+  string getColor(); 
   int getHora();
-  int getMinuto();
 
   virtual void pagar() = 0;
 };

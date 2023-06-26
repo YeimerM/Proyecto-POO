@@ -1,4 +1,5 @@
 #include "Moto.h"
+#include <iostream>
 
 using namespace std;
 
@@ -29,5 +30,23 @@ string Moto::getCilindraje()
 
 void Moto::pagar()
 {
-  int pagar = 3000;
+  int horaSalida = 0;
+  cout << "Ingrese la hora de salida (Formato 24h)" << endl;
+  cin >> horaSalida;
+  int tiempoTotal = horaSalida-horaEntrada;
+
+
+  double valor = 0.0;
+  if (tiempoTotal <= 1) {
+      valor = 2000.0;
+  } else if (tiempoTotal <= 12) {
+      valor = 2000.0 + (1000.0 * (tiempoTotal - 1));
+  } else {
+      valor = 7000.0 + (500.0 * (tiempoTotal - 12));
+  }
+
+  // Mostrar información de pago
+  cout << "Placa: " << placa << endl;
+  cout << "Tipo: Moto" << endl;
+  cout << "Valor a pagar: " << valor << endl;
 }

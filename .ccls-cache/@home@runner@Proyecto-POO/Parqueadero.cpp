@@ -78,6 +78,7 @@ void Parqueadero::retirarVehiculo()
       (*it)->pagar();
       delete *it;
       vehiculos.erase(it);
+      cout << "Vehiculo retirado" << endl;
       break;
     }
   }

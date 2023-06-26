@@ -44,6 +44,6 @@ void Carro::pagar()
   // Se muestra la información de pago
   cout << "Placa: " << placa << endl;
   cout << "Tipo: Carro" << endl;
-  cout << "Valor a pagar: " << valor << endl;
+  cout << "Valor a pagar: $" << valor << endl;
   
 }

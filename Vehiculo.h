@@ -13,7 +13,6 @@ protected:
   string color;
   string marca;
   int horaEntrada;
-  int minutoEntrada;
 
 public:
   // Método Constructos
